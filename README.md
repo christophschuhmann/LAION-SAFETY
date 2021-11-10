@@ -2,6 +2,38 @@
 A open toolbox for NSFW &amp; toxicity detection
 
 # Overview
+We present an ensemble of a NSFW image classifier ( based on EfficientNet V2 ) together with Detoxify (  ), an existing language model for toxicity detection.
+
+The image classifier had been trained on XXX images from the 5 classes "Drawing" ( ), "Hentai" ( ), "Neutral" ( ), "Porn" ( ) & "Sexy" ( ).
+
+To evaluate the performance of the image classifier together with & without additional information from Detoxify, we created a manually  inspected test set that consists of XXXX samples, that contains images & their captions.
+
+(conf matrix )
+
+To use our 5 class image classifier as a binary SFW - NSFW classifier, we consider images from the classes "Drawing" & "Neutral" as SFW and "Hentai", "Porn" & "Sexy" as NSFW.
+
+--> Our image classifier predicts XX % of the true NSFW correctly as NSFW (false negatives) and discards XX % of the SFW images incorrectly as NSFW (false positives).
+
+We compare our model with XXXXX Gantman XXXXX , to our knowledge the best openly available NSFW classifier at the time of writing:
+
+( confusion matrix )
+
+False negatives:
+False positives:
+ 
+--> Our image classifier predicts XX % less false negatives & XX % less false positives.
+
+
+To leverage the information from the image captions, we add the sum of Detoxify's "toxicity" & "sexual_explicity" scores to the softmax scores of the image classifier before determining the category with the highest score.
+
+This ensemble archives the following performance:
+
+(conf matrix)
+
+False negatives:
+False positives:
+
+--> This ensemble predicts XX % less false negatives & XX % less false positives.
 
 
 # Inference
