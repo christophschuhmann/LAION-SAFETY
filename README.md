@@ -9,7 +9,7 @@ The image classifier had been trained on XXX images from the 5 classes "Drawing"
 To evaluate the performance of the image classifier together with & without additional information from Detoxify, we created a manually  inspected test set that consists of XXXX samples, that contains images & their captions.
 
 (conf matrix )
-
+![image](https://ardalis.com/img/copy-image-into-issue.png)
 To use our 5 class image classifier as a binary SFW - NSFW classifier, we consider images from the classes "Drawing" & "Neutral" as SFW and "Hentai", "Porn" & "Sexy" as NSFW.
 
 --> Our image classifier predicts XX % of the true NSFW correctly as NSFW (false negatives) and discards XX % of the SFW images incorrectly as NSFW (false positives).
