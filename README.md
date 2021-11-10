@@ -45,3 +45,4 @@ False positives:
 
 
 # Disclaimer
+Even though this is obvious, we explicitly state here that the predictions made by our image classifier & its ensemble with Detoxify are not 100% correct & that everyone who applies them has to take the full responsibilty for this application. 
