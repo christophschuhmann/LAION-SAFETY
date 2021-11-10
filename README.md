@@ -8,7 +8,7 @@ The image classifier had been trained on XXX images from the 5 classes "Drawing"
 
 To evaluate the performance of the image classifier together with & without additional information from Detoxify, we created a manually  inspected test set that consists of XXXX samples, that contains images & their captions.
 
-(conf matrix )
+![image](https://cdn.discordapp.com/attachments/893170386030694460/908071613520560160/unknown.png)
 
 To use our 5 class image classifier as a binary SFW - NSFW classifier, we consider images from the classes "Drawing" & "Neutral" as SFW and "Hentai", "Porn" & "Sexy" as NSFW.
 
@@ -28,7 +28,7 @@ To leverage the information from the image captions, we add the sum of Detoxify'
 
 This ensemble archives the following performance:
 
-(conf matrix)
+![image](https://cdn.discordapp.com/attachments/893170386030694460/908072103465599026/unknown.png)
 
 False negatives:
 False positives:
