@@ -2,7 +2,7 @@
 A open toolbox for NSFW &amp; toxicity detection
 
 # Overview
-We present an ensemble of a NSFW image classifier ( based on EfficientNet V2 ) together with Detoxify (  ), an existing language model for toxicity detection.
+We present an ensemble of a NSFW image classifier ( based on EfficientNet V2, https://github.com/google/automl/tree/master/efficientnetv2 ) together with Detoxify ( https://github.com/unitaryai/detoxify ), an existing language model for toxicity detection.
 
 The image classifier had been trained on XXX images from the 5 classes "Drawing" ( ), "Hentai" ( ), "Neutral" ( ), "Porn" ( ) & "Sexy" ( ).
 
