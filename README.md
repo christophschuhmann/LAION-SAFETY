@@ -16,7 +16,7 @@ To use our 5 class image classifier as a binary SFW - NSFW classifier, we consid
 
 We compare our model with XXXXX Gantman XXXXX , to our knowledge the best openly available NSFW classifier at the time of writing:
 
-![image](https://media.discordapp.net/attachments/893170386030694460/905489671654613102/unknown.png)
+![image](https://cdn.discordapp.com/attachments/893170386030694460/905489671654613102/unknown.png)
 
 False negatives:
 False positives:
