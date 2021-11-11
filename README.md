@@ -15,6 +15,7 @@ To use our 5 class image classifier as a binary SFW - NSFW classifier, we consid
 --> Our image classifier predicts 96,45 % of the true NSFW correctly as NSFW (false negatives) and discards 7,96 % of the SFW images incorrectly as NSFW (false positives).
 
 False negatives: 3,55% 
+
 False positives: 7,96%
 
 
