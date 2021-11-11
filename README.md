@@ -14,6 +14,7 @@ To use our 5 class image classifier as a binary SFW - NSFW classifier, we consid
 
 --> Our image classifier predicts 96,45 % of the true NSFW correctly as NSFW (false negatives) and discards 7,96 % of the SFW images incorrectly as NSFW (false positives).
 
+
 False negatives: 3,55% 
 
 False positives: 7,96%
@@ -23,7 +24,9 @@ We compare our model with the best NSFW classifier from the Github user Gantman 
 
 ![image](https://cdn.discordapp.com/attachments/893170386030694460/905489671654613102/unknown.png)
 
+
 False negatives: 5,90%
+
 False positives: 7,52%
  
 --> Our image classifier predicts ~ 2 % less false negatives, at the cost of predicting ~0,5% more SFW pictures as NSFW. 
@@ -36,7 +39,9 @@ This ensemble archives the following performance:
 
 ![image](https://cdn.discordapp.com/attachments/893170386030694460/908072103465599026/unknown.png)
 
+
 False negatives: 2,22% 
+
 False positives: 5,33%
 
 --> This ensemble predicts 1,3 % less false negatives & 2,6 % less false positives than our image classifier alone.
